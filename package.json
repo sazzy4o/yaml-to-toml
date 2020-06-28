@@ -1,9 +1,12 @@
 {
   "name": "yaml-to-toml",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "CLI tool to convert js yaml files to toml files",
   "main": "index.js",
   "scripts": {},
+  "bin": {
+    "yaml-to-toml": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sazzy4o/yaml-to-toml.git"
