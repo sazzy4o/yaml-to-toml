@@ -6,8 +6,7 @@ const yaml = require('yaml-boost');
 
 const args = process.argv.slice(2);
 const expected = `Expected:
-yaml-to-toml <yaml_path> <toml_path>
-`;
+yaml-to-toml <yaml_path> <toml_path>`;
 
 if (args.length < 2){
     console.log('Too few arguments');
