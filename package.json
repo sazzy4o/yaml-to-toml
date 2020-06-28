@@ -1,0 +1,26 @@
+{
+  "name": "yaml-to-toml",
+  "version": "0.0.1",
+  "description": "CLI tool to convert js yaml files to toml files",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sazzy4o/yaml-to-toml.git"
+  },
+  "keywords": [
+    "yaml",
+    "toml",
+    "converter"
+  ],
+  "author": "Spencer von der Ohe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sazzy4o/yaml-to-toml/issues"
+  },
+  "homepage": "https://github.com/sazzy4o/yaml-to-toml#readme",
+  "dependencies": {
+    "toml-patch": "^0.2.3",
+    "yaml-boost": "^1.9.22"
+  }
+}
