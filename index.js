@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
+const path = require("path");
 const toml = require('toml-patch');
 const yaml = require('yaml-boost');
 
@@ -18,8 +19,8 @@ if (args.length < 2){
     process.exit(1);
 }
 
-const parsedData = yaml.load(args[0]);
+const parsedData = yaml.load(path.resolve(args[0]));
 
 const tomlString = toml.stringify(parsedData);
 
-fs.writeFileSync(args[1], tomlString);
+fs.writeFileSync(path.resolve(args[1]), tomlString);
